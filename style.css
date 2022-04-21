@@ -1,7 +1,15 @@
+.mybody{
+
+}
 .myimg {
     height: 20px;
 }
 
 .mycon {
     width: 100%;
+    background-color: #b9c3ff;
+}
+
+.mycolor{
+    background-color: #78aaff;
 }
