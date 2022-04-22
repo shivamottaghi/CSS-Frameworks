@@ -19,3 +19,9 @@ a.btnhover:hover{
     color: white;
     border-radius: 25%;
 }
+.navbar-fixed-left{
+    width: 100px;
+    position: fixed;
+    border-radius: 0;
+    height: 100%;
+}
