@@ -13,3 +13,9 @@
 .mycolor{
     background-color: #78aaff;
 }
+
+a.btnhover:hover{
+    background: #78aaff;
+    color: white;
+    border-radius: 25%;
+}
