@@ -19,19 +19,19 @@ a.btnhover:hover{
     color: white;
     border-radius: 25%;
 }
-/*.navbar-fixed-left{
-    width: 100px;
-    position: fixed;
+.navbar-fixed-left{
+    /*width: 100px;
+    position: fixed;*/
     border-radius: 0;
     height: 100%;
 }
-
+/*
 .wrapper {
     display: flex;
     width: 100%;
     align-items: stretch;
 }*/
-/*--------------------sidebar stuff here ------------------------------*/
+/*--------------------sidebar stuff here
 .wrapper {
     display: flex;
     align-items: stretch;
@@ -83,3 +83,4 @@ a[data-toggle="collapse"] {
     color: #fff;
     transition: all 0.3s;
 }
+------------------------------*/
