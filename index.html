@@ -7,22 +7,70 @@
 </head>
 <body class="mycolor" style="background-color:#b9e5ff;">
 <div class="parent-container d-flex">
-<div class=" container bg-light" style="width: 100px; position: fixed;border-radius: 0;height: 100%; top: 0;">
+    <div class="wrapper">
 
-            <ul class="list-group list-unstyled">
-                <li class="">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        <!-- Sidebar -->
+        <nav id="sidebar">
+            <div class="sidebar-header">
+                <h3>My Sidebar</h3>
+            </div>
+
+            <ul class="list-unstyled components">
+                <p>I hope it works</p>
+                <li class="active">
+                    <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Home</a>
+                    <ul class="collapse list-unstyled" id="homeSubmenu">
+                        <li>
+                            <a href="#">Home</a>
+                        </li>
+                        <li>
+                            <a href="#">some page</a>
+                        </li>
+                        <li>
+                            <a href="#">another page</a>
+                        </li>
+                    </ul>
                 </li>
-                <li class="">
-                    <a class="nav-link" href="#">Link</a>
+                <li>
+                    <a href="#">About</a>
                 </li>
-                <li class="">
-                    <a class="nav-link disabled" href="#">Disabled</a>
+                <li>
+                    <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Pages</a>
+                    <ul class="collapse list-unstyled" id="pageSubmenu">
+                        <li>
+                            <a href="#">a link</a>
+                        </li>
+                        <li>
+                            <a href="#">another link</a>
+                        </li>
+
+                    </ul>
                 </li>
             </ul>
+        </nav>
+
+        <!-- Page Content -->
+        <div id="content">
+            <!-- We'll fill this with dummy content -->
+        </div>
+
+    </div>
+    <!--<div class=" container bg-light" style="width: 100px; position: fixed;border-radius: 0;height: 100%; top: 0;">
+
+                <ul class="list-group list-unstyled">
+                    <li class="">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="">
+                        <a class="nav-link disabled" href="#">Disabled</a>
+                    </li>
+                </ul>
 
 
-</div>
+    </div>-->
 
 <div class="container" style="background-color:#b9e5ff; margin-left: 90px;">
     <div class="row d-flex justify-content-around mb-3 mt-3 mycolor ">
